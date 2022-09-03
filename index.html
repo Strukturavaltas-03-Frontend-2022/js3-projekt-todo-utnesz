@@ -8,19 +8,22 @@
     <title>To do list by Utnesz</title>
 </head>
 <body>
-    <header>Daily To-Do Manager</header>
+    <header>Daily To-Do list Manager</header>
     <div class="todo_container">
         <div class="date">2022-01-01</div>
-        <div class="input"><input type=""><button>+</button></div>
-        <div>You have x pending Items</div>
-        <div class="new_item">Laundry</div>
-        <div>Completed tasks: 50%</div>
-        <div class="old_item">Garbage</div>
+        <div class="input">
+            <input  type="text" maxlength="8" placeholder="Take the garbage out..." size="40">
+            <button class="button_plus">+</button>
+        </div>
+        <div class="line">You have x pending Items</div>
+        <div class="new_item line">Laundry</div>
+        <div class="line">Completed tasks: 50%</div>
+        <div class="old_item line">Garbage</div>
         <div class="btn">
             <button>Hide complete</button>
             <button>Clear All</button>
         </div>
     </div>
-    
+    <script src="main.js"></script>
 </body>
 </html>
