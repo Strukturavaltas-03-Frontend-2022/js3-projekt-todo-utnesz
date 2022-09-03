@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
+
+html {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to top, #412502, #feedd6);
+    font-style: "Montserrat", sans-serif, Light 300;
+    margin: 0;
+}
+
+header {
+    font-style: "Montserrat", sans-serif, Medium 500;
+    font-size: 3rem;
+    background-color: #412502;
+    color: #feedd6;
+    padding: 50px;
+}
+
+.todo_container {
+        background-color: #feedd6;
+        position: relative;
+        display: block;
+        flex-wrap: wrap;
+        width: 33%;
+        height: 520px;
+        margin: 5% 33% 0% 33%;
+        box-shadow: 10px 10px 30px #412502;
+        border-radius: 0.3rem;
+        padding: 20px;
+}
