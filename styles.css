@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Condensed&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  /*font-family: "Roboto Condensed", sans-serif;*/
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: linear-gradient(
+    to right bottom,
+    #0e4bef,
+    darkred,
+    gold,
+    green,
+    rgba(128, 128, 128, 0.4)
+  );
+  background-repeat: none;
+  background-attachment: fixed;
+}
+
+h1 {
+  margin: 20px;
+}
+
+.container__todo {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: column;
+  height: 600px;
+  width: 300px;
+  background-color: rgba(121, 164, 164, 0.431);
+  border: 2px solid grey;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.514);
+  padding: 20px;
+}
+
+.date {
+  width: 100px;
+}
+
+.input,
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  gap: 5px;
+}
+
+.inputField {
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+  height: 30px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.addNewItem {
+  width: 50px;
+  height: 100%;
+  border: none;
+  border-radius: 5px;
+}
+
+.button__delete {
+  color: red;
+  width: 25px;
+  border-radius: 5px;
+  border: none;
+  visibility: hidden;
+}
+
+.pending,
+.completed {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 5px;
+}
+
+.container__pendingItems,
+.container__completedItems {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 10px;
+}
+
+.pendingItem,
+.completedItem {
+  background-color: rgba(96, 101, 101, 0.468);
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  width: 100%;
+  gap: 20px;
+}
+
+.item_content {
+  width: 100%;
+}
+
+.buttons > button {
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+}
+
+button:hover {
+  background-color: lightpink;
+  color: white;
+}
+
+.rainbow {
+  /* display: none;*/
+  margin: auto;
+  font-size: 64px;
+}
