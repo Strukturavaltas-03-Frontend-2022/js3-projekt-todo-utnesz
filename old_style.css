@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
+
+html {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to top, #412502, #feedd6);
+    font-style: "Montserrat", sans-serif, Light 300;
+    margin: 0;
+}
+
+header {
+    font-style: "Montserrat", sans-serif, Medium 500;
+    font-size: 3rem;
+    background-color: #412502;
+    color: #feedd6;
+    padding: 50px;
+}
+
+.date {
+    font-size: 1.5rem;
+    width: 10rem;
+    padding: 20px 0 50px 0;
+}
+
+.input {
+  border: none;
+  color: white;
+  display: flex;
+  line-height: 2rem;
+  font-style: italic;
+}
+
+.button_plus {
+  background-color: #b59c7d;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  margin: 0 20px 0 10px;
+  text-align: right;
+  display: flex;
+  font-size: 1.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.todo_container {
+  background-color: #feedd6;
+  position: relative;
+  display: block;
+  flex-wrap: wrap;
+  width: 30%;
+  height: 100%;
+  margin: 5% 33% 0% 33%;
+  box-shadow: 10px 10px 30px #412502;
+  border-radius: 0.3rem;
+  padding: 20px;
+}
+
+.text_line {
+    line-height: 2rem;
+    font-size: 1.2rem;
+    padding: 20px 0 20px 0;
+    font-weight: bold;
+}
+
+.new_item {
+  line-height: 1rem;
+  font-size: 1.2rem;
+  padding: 5px 0 5px 0;
+  margin:5px 0 5px 0;
+  display: block;
+  background-color: #f1e2ce;
+  cursor: pointer;
+}
+
+.old_item {
+  line-height: 1rem;
+  font-size: 1.2rem;
+  padding: 5px 0 5px 0;
+  margin:5px 0 5px 0;
+  text-decoration-line:line-through;
+  display: block;
+  background-color: #f1e2ce;
+}
+
+.btn_ctnr {
+    display: inline-block;
+    margin: 40px 20% 10px 20%;
+}
+
+.btn {
+  font-family: 'Montserrat', sans-serif;
+  background-color: none;
+  border: none;
+  color: #412502;
+  background-color: #feedd6;
+  display:inline-block;
+  justify-content: center;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.beermugs {
+    font-size: 4rem;
+    text-align: center;
+    margin: 50px 0 0px 0 ;
+}
+
+.notodos {
+   text-align: center; 
+   margin: 0 0 100px 0;
+}
